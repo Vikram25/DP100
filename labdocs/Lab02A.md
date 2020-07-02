@@ -10,7 +10,7 @@ Before you start this lab, ensure that you have completed [Lab 1A](Lab01A.md) an
 
 1. In [Azure Machine Learning studio](https://ml.azure.com), on the **Compute** page, on the **Compute clusters** tab, click the name of the compute cluster you created previously.
 2. Edit your compute cluster to change the **Minimum number of nodes** to 2 (so both the minimum and maximum number of nodes is 2), and click **Update**. This will ensure that your cluster nodes are always running, and minimize the time you will need to wait for them to start.
-
+    > **Update**:The Azure ML Compute Instance only allow auto scale setting with MaximumNodeCount and MinimumNodeCount be 1
     > **Important**: If you decide not to complete this lab, reset the minimum number of nodes to 0 to avoid incurring unnecessary cost.
 
 ## Task 1: Create a Designer Pipeline and Explore Data
